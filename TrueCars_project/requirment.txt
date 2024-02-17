@@ -1,0 +1,62 @@
+********************************************* TRUECAR *********************************************
+
+* Required software
+
+-> XAMPP version 3.3.0
+-> Chrome 107.0.5304.105 
+
+* Technology :
+
+-> HTML 5
+-> CSS 4
+-> PHP version: 8.1.6
+
+
+* Steps to run the project
+
+1 : Download and install XAMPP server
+2 : Open xampp folder then open htdocs folder and paste truecar folder
+3 : Open browser and search url "localhost/phpmyadmin"
+4 : create database named 'truecar'
+4 : Click on import and choose file "cars.sql" and import database
+5 : Now open browser and search url "localhost/truecar/index.php"
+
+
+* Steps to fire mail locally
+
+1: Open the XAMPP installation directory.
+
+2: Navigate php.ini file from C:\xampp\php
+
+3: Press ctrl + f to find the mail function
+
+4: Search & pass the below-mentioned values.
+
+› SMTP=smtp.gmail.com
+
+› smtp_port=587
+
+› sendmail_from = xxxxxxxxxxxxxxxxx@gmail.com
+
+› sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+5: Open sendmail.ini file from C:\xampp\sendmail.
+
+6: Press ctrl + f & find sendmail.
+
+7: Search & pass the below-mentioned values.
+
+› smtp_server=smtp.gmail.com
+
+› smtp_port=587
+
+› error_logfile=error.log
+
+› debug_logfile=debug.log
+
+›  auth_username=***************@gmail.com
+
+› auth_password=**************** //first create your password
+
+	       
+	

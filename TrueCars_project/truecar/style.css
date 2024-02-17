@@ -1,0 +1,77 @@
+/*default for all page*/
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;  
+} 
+
+/* navication */
+
+
+.nav{
+    position: relative;
+}
+nav li {
+    float: right;
+    margin-top: 20px;
+    list-style: none;
+    padding: 30px;
+    font-size: 20px; 
+}
+nav  li a {
+    text-decoration: none;
+    font-size: 20px;
+    position: relative; 
+}
+nav li:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+nav li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #589f85;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+
+
+/* Quote */
+.hometitle{
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+#qu:hover{
+    transform: scale(1.2);
+  transition-duration: 0.5s; 
+  opacity: 1;
+   color: rgb(246, 191, 29);
+   padding-right: 100px;
+}
+
+
+/* #welcome{
+    font-size: 20px;
+    position: relative;
+    top: 730px;
+    left: 300px;
+    color: black;   
+} */
+
+/*BOdy*/
+.header{
+    background: url("car8.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+
+
